@@ -1,0 +1,19 @@
+<button (click)="ocultar()">Ocultar/Visualizar</button>
+
+@if( visualizar ){ 
+
+<div>
+    <span>
+        <h3>Visualizar</h3>
+        <app-tabla1></app-tabla1>
+    </span>
+</div>
+} @else {
+    
+    <div>
+        <span>
+            <h3>Ocultar</h3>
+            <app-tabla2></app-tabla2>
+        </span>
+    </div>
+}
